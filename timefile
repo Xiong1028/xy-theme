@@ -1,0 +1,334 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.016  000.016: --- NVIM STARTING ---
+001.068  001.053: locale set
+001.636  000.568: inits 1
+001.670  000.033: window checked
+001.920  000.251: parsing arguments
+014.963  013.042: expanding arguments
+015.084  000.121: inits 2
+016.001  000.917: init highlight
+016.212  000.211: waiting for UI
+019.038  002.826: done waiting for UI
+019.066  000.029: initialized screen early for UI
+052.935  020.562  020.562: sourcing /Users/Shawn/.config/nvim/autoload/plug.vim
+097.653  000.031  000.031: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/filetype.vim
+139.986  000.191  000.191: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+140.222  042.448  042.257: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/filetype.vim
+140.478  000.027  000.027: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+157.180  073.354  030.848: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/autoload/polyglot/init.vim
+157.210  085.356  012.001: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/filetype.vim
+157.349  000.021  000.021: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/filetype.vim
+157.769  000.247  000.247: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/ftplugin.vim
+158.206  000.260  000.260: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/indent.vim
+172.336  000.603  000.603: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+172.495  001.204  000.601: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/synload.vim
+172.543  014.210  013.005: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syntax.vim
+173.420  000.178  000.178: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+187.805  000.347  000.347: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+188.827  000.245  000.245: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+201.314  027.568  026.977: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/colors/gruvbox.vim
+201.605  000.022  000.022: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/filetype.vim
+201.699  000.028  000.028: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/filetype.vim
+201.957  000.020  000.020: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/ftplugin.vim
+202.223  000.019  000.019: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/indent.vim
+220.310  017.889  017.889: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/nosyntax.vim
+222.192  000.409  000.409: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+223.925  000.405  000.405: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+232.939  012.177  011.362: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/colors/gruvbox.vim
+233.065  012.452  000.275: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/synload.vim
+233.104  030.782  000.441: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syntax.vim
+234.020  000.742  000.742: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/nosyntax.vim
+235.550  000.324  000.324: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+236.920  000.267  000.267: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+244.259  009.898  009.307: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/colors/gruvbox.vim
+244.354  010.117  000.219: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/synload.vim
+244.390  011.186  000.326: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syntax.vim
+245.518  226.224  035.766: sourcing /Users/Shawn/.config/nvim/init.vim
+245.551  000.261: sourcing vimrc file(s)
+276.890  005.554  005.554: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/rpc.vim
+278.604  001.535  001.535: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/util.vim
+279.419  000.474  000.474: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/client.vim
+306.234  043.851  036.288: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/plugin/coc.vim
+348.859  012.632  012.632: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/autoload/nerdtree.vim
+351.070  001.371  001.371: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/path.vim
+351.893  000.649  000.649: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+352.253  000.263  000.263: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+352.772  000.423  000.423: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/key_map.vim
+353.452  000.591  000.591: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+354.063  000.515  000.515: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+355.103  000.942  000.942: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+355.691  000.499  000.499: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/opener.vim
+356.297  000.525  000.525: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/creator.vim
+356.544  000.170  000.170: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+357.681  001.033  001.033: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+359.181  001.350  001.350: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/ui.vim
+359.515  000.178  000.178: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/event.vim
+359.776  000.171  000.171: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/notifier.vim
+382.478  022.614  022.614: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+388.720  000.583  000.583: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+424.570  034.052  034.052: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/autoload/provider/clipboard.vim
+425.479  036.680  002.628: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+425.839  000.244  000.244: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/nerdtree_plugin/vcs.vim
+426.548  105.725  024.294: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/plugin/NERD_tree.vim
+453.273  009.612  009.612: sourcing /Users/Shawn/.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim
+482.896  018.271  018.271: sourcing /Users/Shawn/.config/nvim/plugged/vim-easy-align/plugin/easy_align.vim
+511.094  012.882  012.882: sourcing /Users/Shawn/.config/nvim/plugged/vim-snippets/plugin/vimsnippets.vim
+574.622  016.806  016.806: sourcing /Users/Shawn/.config/nvim/plugged/emmet-vim/plugin/emmet.vim
+582.778  007.737  007.737: sourcing /Users/Shawn/.config/nvim/plugged/vim-surround/plugin/surround.vim
+609.600  025.687  025.687: sourcing /Users/Shawn/.config/nvim/plugged/vim-easymotion/plugin/EasyMotion.vim
+637.111  014.359  014.359: sourcing /Users/Shawn/.config/nvim/plugged/zoomwintab.vim/plugin/zoomwintab.vim
+656.366  018.460  018.460: sourcing /Users/Shawn/.config/nvim/plugged/vim-phpfmt/plugin/phpfmt.vim
+679.703  014.884  014.884: sourcing /Users/Shawn/.config/nvim/plugged/auto-pairs/plugin/auto-pairs.vim
+708.799  012.191  012.191: sourcing /Users/Shawn/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+752.158  034.528  034.528: sourcing /Users/Shawn/.fzf/plugin/fzf.vim
+768.311  012.611  012.611: sourcing /Users/Shawn/.config/nvim/plugged/fzf/plugin/fzf.vim
+811.551  016.763  016.763: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/init.vim
+819.984  007.915  007.915: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/parts.vim
+823.359  002.876  002.876: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/formatter/short_path.vim
+825.982  000.815  000.815: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/util.vim
+826.136  042.966  014.598: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/plugin/airline.vim
+848.076  013.201  013.201: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/plugin/polyglot.vim
+872.973  007.993  007.993: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/gzip.vim
+873.328  000.241  000.241: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/health.vim
+873.713  000.328  000.328: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/man.vim
+899.384  007.136  007.136: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+899.511  025.725  018.589: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/matchit.vim
+900.142  000.514  000.514: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/matchparen.vim
+901.493  001.265  001.265: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/netrwPlugin.vim
+902.032  000.430  000.430: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/rplugin.vim
+902.587  000.443  000.443: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/shada.vim
+902.848  000.171  000.171: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/spellfile.vim
+903.347  000.431  000.431: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/tarPlugin.vim
+903.846  000.404  000.404: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/tohtml.vim
+904.150  000.209  000.209: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/tutor.vim
+904.829  000.554  000.554: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/zipPlugin.vim
+904.848  216.819: loading plugins
+905.060  000.212: loading packages
+905.178  000.118: loading after plugins
+905.208  000.030: inits 3
+919.110  013.902: reading ShaDa
+930.042  009.715  009.715: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions.vim
+937.356  007.064  007.064: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+938.408  000.753  000.753: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline.vim
+938.908  000.214  000.214: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+939.475  000.305  000.305: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/fzf.vim
+948.289  007.750  007.750: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/section.vim
+949.605  000.921  000.921: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/highlighter.vim
+950.353  010.278  001.607: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/term.vim
+951.425  000.483  000.483: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+954.217  000.200  000.200: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/coc.vim
+955.174  000.479  000.479: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+956.197  000.264  000.264: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/po.vim
+956.717  000.260  000.260: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+957.319  000.180  000.180: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+998.813  000.362  000.362: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/themes.vim
+1003.127  005.241  004.878: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/autoload/airline/themes/gruvbox.vim
+1006.576  019.605  014.364: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/autoload/airline/themes/gruvbox.vim
+1047.800  000.516  000.516: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/builder.vim
+1048.843  000.374  000.374: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/default.vim
+1126.214  156.414: opening buffers
+1144.261  016.871  016.871: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/autoload/polyglot/sleuth.vim
+1271.315  010.737  010.737: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/syntax/nerdtree.vim
+1287.283  133.460: BufEnter autocommands
+1287.295  000.012: editing files in windows
+1297.039  000.847  000.847: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/syntax/nerdtree.vim
+1379.558  091.417: VimEnter autocommands
+1379.565  000.006: UIEnter autocommands
+1379.569  000.004: before starting main loop
+1421.604  042.036: first screen update
+1421.610  000.005: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.011  000.011: --- NVIM STARTING ---
+000.765  000.753: locale set
+001.204  000.439: inits 1
+001.230  000.027: window checked
+001.370  000.140: parsing arguments
+001.560  000.190: expanding arguments
+001.645  000.086: inits 2
+002.254  000.608: init highlight
+002.372  000.118: waiting for UI
+004.829  002.457: done waiting for UI
+004.858  000.029: initialized screen early for UI
+032.210  020.171  020.171: sourcing /Users/Shawn/.config/nvim/autoload/plug.vim
+055.122  000.036  000.036: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/filetype.vim
+081.720  000.248  000.248: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+081.943  026.683  026.435: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/filetype.vim
+082.166  000.018  000.018: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/ftdetect/polyglot.vim
+098.301  046.101  019.365: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/autoload/polyglot/init.vim
+098.330  061.481  015.380: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/filetype.vim
+098.482  000.024  000.024: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/filetype.vim
+098.967  000.277  000.277: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/ftplugin.vim
+099.420  000.233  000.233: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/indent.vim
+107.260  000.509  000.509: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+107.451  001.161  000.652: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/synload.vim
+107.516  007.980  006.819: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syntax.vim
+108.217  000.176  000.176: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+122.631  000.225  000.225: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+123.267  000.174  000.174: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+134.000  025.455  025.056: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/colors/gruvbox.vim
+134.223  000.021  000.021: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/filetype.vim
+134.306  000.022  000.022: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/filetype.vim
+134.499  000.018  000.018: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/ftplugin.vim
+134.687  000.018  000.018: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/indent.vim
+155.549  020.703  020.703: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/nosyntax.vim
+157.748  000.523  000.523: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+159.753  000.454  000.454: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+168.780  012.738  011.761: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/colors/gruvbox.vim
+168.922  013.018  000.279: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/synload.vim
+168.971  034.192  000.472: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syntax.vim
+169.630  000.496  000.496: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/nosyntax.vim
+170.926  000.298  000.298: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+172.438  000.288  000.288: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syncolor.vim
+180.841  010.959  010.374: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/colors/gruvbox.vim
+180.960  011.164  000.205: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/synload.vim
+180.997  011.932  000.272: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/syntax.vim
+182.285  177.129  015.130: sourcing /Users/Shawn/.config/nvim/init.vim
+190.512  008.525: sourcing vimrc file(s)
+212.142  005.490  005.490: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/rpc.vim
+214.156  001.812  001.812: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/util.vim
+215.308  000.575  000.575: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/client.vim
+235.235  044.163  036.286: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/plugin/coc.vim
+261.441  012.197  012.197: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/autoload/nerdtree.vim
+263.507  001.219  001.219: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/path.vim
+264.138  000.487  000.487: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/menu_controller.vim
+264.555  000.288  000.288: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/menu_item.vim
+265.154  000.458  000.458: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/key_map.vim
+266.005  000.724  000.724: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/bookmark.vim
+266.660  000.527  000.527: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/tree_file_node.vim
+267.734  000.983  000.983: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/tree_dir_node.vim
+268.637  000.806  000.806: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/opener.vim
+269.547  000.747  000.747: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/creator.vim
+269.945  000.246  000.246: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/flag_set.vim
+270.638  000.570  000.570: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/nerdtree.vim
+271.840  001.059  001.059: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/ui.vim
+272.520  000.463  000.463: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/event.vim
+272.935  000.248  000.248: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/lib/nerdtree/notifier.vim
+274.401  001.246  001.246: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/autoload/nerdtree/ui_glue.vim
+279.914  000.381  000.381: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/nerdtree_plugin/exec_menuitem.vim
+292.809  011.252  011.252: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/autoload/provider/clipboard.vim
+293.592  013.568  002.316: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/nerdtree_plugin/fs_menu.vim
+293.849  000.171  000.171: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/nerdtree_plugin/vcs.vim
+294.256  058.651  022.264: sourcing /Users/Shawn/.config/nvim/plugged/nerdtree/plugin/NERD_tree.vim
+299.602  005.161  005.161: sourcing /Users/Shawn/.config/nvim/plugged/vim-tmux-navigator/plugin/tmux_navigator.vim
+318.127  018.288  018.288: sourcing /Users/Shawn/.config/nvim/plugged/vim-easy-align/plugin/easy_align.vim
+335.328  016.973  016.973: sourcing /Users/Shawn/.config/nvim/plugged/vim-snippets/plugin/vimsnippets.vim
+354.366  018.733  018.733: sourcing /Users/Shawn/.config/nvim/plugged/emmet-vim/plugin/emmet.vim
+362.350  007.754  007.754: sourcing /Users/Shawn/.config/nvim/plugged/vim-surround/plugin/surround.vim
+387.334  024.667  024.667: sourcing /Users/Shawn/.config/nvim/plugged/vim-easymotion/plugin/EasyMotion.vim
+405.492  017.939  017.939: sourcing /Users/Shawn/.config/nvim/plugged/zoomwintab.vim/plugin/zoomwintab.vim
+424.887  019.170  019.170: sourcing /Users/Shawn/.config/nvim/plugged/vim-phpfmt/plugin/phpfmt.vim
+431.250  006.158  006.158: sourcing /Users/Shawn/.config/nvim/plugged/auto-pairs/plugin/auto-pairs.vim
+443.989  012.454  012.454: sourcing /Users/Shawn/.config/nvim/plugged/vim-commentary/plugin/commentary.vim
+456.204  011.954  011.954: sourcing /Users/Shawn/.fzf/plugin/fzf.vim
+459.011  002.526  002.526: sourcing /Users/Shawn/.config/nvim/plugged/fzf/plugin/fzf.vim
+475.458  000.672  000.672: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/init.vim
+477.473  000.749  000.749: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/parts.vim
+478.405  000.268  000.268: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/formatter/short_path.vim
+481.915  000.797  000.797: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/util.vim
+482.192  022.852  020.366: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/plugin/airline.vim
+494.813  012.261  012.261: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/plugin/polyglot.vim
+508.085  012.377  012.377: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/gzip.vim
+508.397  000.207  000.207: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/health.vim
+509.002  000.543  000.543: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/man.vim
+512.307  001.824  001.824: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+512.442  003.334  001.510: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/matchit.vim
+513.099  000.553  000.553: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/matchparen.vim
+514.690  001.498  001.498: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/netrwPlugin.vim
+515.229  000.427  000.427: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/rplugin.vim
+515.947  000.611  000.611: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/shada.vim
+516.262  000.198  000.198: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/spellfile.vim
+517.005  000.641  000.641: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/tarPlugin.vim
+517.527  000.401  000.401: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/tohtml.vim
+517.804  000.166  000.166: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/tutor.vim
+518.691  000.776  000.776: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/plugin/zipPlugin.vim
+518.716  006.768: loading plugins
+518.929  000.213: loading packages
+519.092  000.163: loading after plugins
+519.116  000.025: inits 3
+523.238  004.122: reading ShaDa
+530.160  000.566  000.566: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/autoload/htmlcomplete.vim
+530.199  001.075  000.509: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/autoload/htmlcomplete.vim
+530.529  002.508  001.433: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/ftplugin/html.vim
+531.022  000.050  000.050: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/ftplugin/html.vim
+531.534  000.114  000.114: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/ftplugin/html.vim
+531.864  000.062  000.062: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/ftplugin/html.vim
+532.181  004.738  002.004: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/ftplugin/php.vim
+534.228  000.927  000.927: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/indent/php.vim
+534.721  000.132  000.132: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/indent/graphql.vim
+534.794  000.440  000.307: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/indent/php.vim
+534.935  000.057  000.057: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/indent/php.vim
+541.692  004.244  004.244: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/javascript.vim
+541.912  000.071  000.071: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/javascript.vim
+544.948  001.152  001.152: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx_pretty.vim
+545.004  002.820  001.669: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx.vim
+545.018  003.017  000.196: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/javascript.vim
+547.922  000.863  000.863: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx_pretty.vim
+547.961  002.585  001.721: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx.vim
+547.997  002.797  000.212: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/javascript.vim
+553.091  004.541  004.541: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/vb.vim
+553.312  000.054  000.054: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/vb.vim
+568.239  014.558  014.558: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/css.vim
+568.406  000.046  000.046: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/css.vim
+570.927  035.222  005.894: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/html.vim
+576.255  003.249  003.249: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/javascript.vim
+576.439  000.042  000.042: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/javascript.vim
+578.346  000.566  000.566: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx_pretty.vim
+578.373  001.738  001.172: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx.vim
+578.381  001.860  000.122: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/javascript.vim
+580.550  000.713  000.713: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx_pretty.vim
+580.596  001.943  001.230: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/jsx.vim
+580.605  002.132  000.189: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/javascript.vim
+582.862  001.795  001.795: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/vb.vim
+583.005  000.028  000.028: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/vb.vim
+598.761  015.485  015.485: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/css.vim
+598.931  000.054  000.054: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/css.vim
+602.203  031.162  006.516: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/html.vim
+604.053  001.727  001.727: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/html.vim
+605.225  001.035  001.035: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/html.vim
+607.282  001.428  001.428: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/mysql.vim
+607.298  001.829  000.401: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/sql.vim
+607.400  000.028  000.028: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/sql.vim
+614.970  079.639  008.637: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/php.vim
+615.150  000.048  000.048: sourcing /Users/Shawn/Documents/Tools/nvim-osx64/share/nvim/runtime/syntax/php.vim
+616.017  000.467  000.467: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/graphql.vim
+616.151  000.839  000.372: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/php/graphql.vim
+617.174  000.505  000.505: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/syntax/graphql.vim
+617.359  001.015  000.510: sourcing /Users/Shawn/.config/nvim/plugged/vim-polyglot/after/syntax/php/graphql.vim
+631.913  014.090  014.090: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions.vim
+638.992  006.783  006.783: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/quickfix.vim
+640.124  000.860  000.860: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline.vim
+640.860  000.262  000.262: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/netrw.vim
+641.461  000.255  000.255: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/fzf.vim
+650.140  007.098  007.098: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/section.vim
+651.261  000.657  000.657: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/highlighter.vim
+651.682  009.282  001.527: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/term.vim
+652.460  000.446  000.446: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/hunks.vim
+654.686  000.193  000.193: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/coc.vim
+655.465  000.453  000.453: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/whitespace.vim
+656.371  000.226  000.226: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/po.vim
+656.857  000.231  000.231: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/wordcount.vim
+657.293  000.150  000.150: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/keymap.vim
+668.784  000.281  000.281: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/themes.vim
+671.750  003.456  003.175: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/autoload/airline/themes/gruvbox.vim
+675.292  007.172  003.716: sourcing /Users/Shawn/.config/nvim/plugged/gruvbox/autoload/airline/themes/gruvbox.vim
+717.863  000.617  000.617: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/builder.vim
+719.123  000.317  000.317: sourcing /Users/Shawn/.config/nvim/plugged/vim-airline/autoload/airline/extensions/default.vim
+811.376  159.098: opening buffers
+822.669  011.293: BufEnter autocommands
+822.679  000.010: editing files in windows
+823.348  000.669: VimEnter autocommands
+823.354  000.005: UIEnter autocommands
+823.358  000.004: before starting main loop
+834.911  011.452  011.452: sourcing /Users/Shawn/.config/nvim/plugged/coc.nvim/autoload/coc/float.vim
+883.025  048.216: first screen update
+883.031  000.005: --- NVIM STARTED ---
