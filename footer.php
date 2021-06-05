@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -10,11 +11,12 @@
  */
 
 ?>
-    <footer class="bg-dark p-3">
-        <div class="site-info text-white">
-      <span>Copyright @ <?php echo date('Y'); ?> wordpress</span>  
-        </div>
-    </footer>
+<footer class="bg-dark p-3" id="footer">
+  <div class="site-info text-white">
+    <span>Copyright @ <?php echo date('Y'); ?> wordpress</span>
+  </div>
+</footer>
+</div>
 
 </div>
 
@@ -22,4 +24,5 @@
 
 <?php wp_footer(); ?>
 </body>
+
 </html>

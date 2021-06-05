@@ -6,11 +6,23 @@
       <th>Time</th>
       <th>Program</th>
       <th>Track</th>
-      <th>Learn Leaval</th>
+      <th>Learn Level</th>
       <th>Language of Presentation</th>
     </tr>
   </thead>
-  <tr>
-    <td></td>
-  </tr>
+  <tbody>
+    <?php
+    foreach ($args['workshop_table'] as $workshop_row) :
+    ?>
+      <tr>
+        <td><?php echo $workshop_row['time'] ?></td>
+        <td><a href="<?php echo get_permalink($workshop_row['session_post_id']); ?>"><?php echo $workshop_row['program']; ?></a></td>
+        <td><?php echo $workshop_row['track'] ?></td>
+        <td><?php echo $workshop_row['learnerlevel'] ?></td>
+        <td><?php echo $workshop_row['language'] ?></td>
+      </tr>
+    <?php
+    endforeach;
+    ?>
+  </tbody>
 </table>

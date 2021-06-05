@@ -43,5 +43,7 @@ function isDate($date, $format = 'm-d-Y')
 }
 
 
-var_dump(isDate('10-21-2021'));
-var_dump(isDate('ps'));
+/* var_dump(isDate('10-21-2021')); */
+/* var_dump(isDate('ps')); */
+
+var_dump(date('Y-m-d H:i:s', time()));
