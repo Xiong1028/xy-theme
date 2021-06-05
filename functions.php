@@ -370,7 +370,10 @@ function isDate($date, $format = 'm-d-Y')
     }
 }
 
-/* insert posts */
+/*
+ * wp create-posts command
+ *
+ * */
 add_action('init', 'wp_cli_create_posts');
 
 function wp_cli_create_posts()
@@ -417,37 +420,32 @@ function insert_workshop_posts()
             );
             /* create session post first */
             $post_content_by_session = normalize_whitespace(load_template_part('content', 'session', $workshop_row));
+
             $post_id = wp_insert_post(array(
-                'post_title'     => $workshop->searchtext,
-                'post_content'   => $post_content,
-                'post_status'    => 'public',
+                'post_title'     => $workshop_row['searchtext'],
+                'post_content'   => $post_content_by_session,
+                'post_status'    => 'publish',
                 'comment_status' => 'closed',
-                'ping_status'    => 'closed'
+                'ping_status'    => 'closed',
+                'post_date'      => date($workshop_row['changedon']),
+                'post_type'      => 'sessions'
             ));
 
-
             if ($post_id) {
-                add_post_meta($post_id, 'sesssion_id', $workshop_row->session_id);
+                echo "Post {$post_id} is inserted \n";
+                add_post_meta($post_id, 'sesssion_id', $workshop_row['session_id']);
+                $workshop_row['post_id'] = $post_id;
             }
-
-
 
             array_push($workshop_table, $workshop_row);
         }
+
         $workshop_infos = array(
             'workshop_date'  => $workshop_date,
             'workshop_table' => $workshop_table
         );
 
         $post_content_by_day = normalize_whitespace(load_template_part('content', 'workshop', $workshop_infos));
-
-
-
-        /* wp_insert_post(array( */
-        /*   'post_title'=>$workshop->searchtext, */
-        /*   'post_content'=>$post_content, */
-        /*   'post_status'=>'public', */
-        /* )); */
     }
 }
 
@@ -458,4 +456,29 @@ function load_template_part($template_name, $part_name = null, $args = array())
     $var = ob_get_contents();
     ob_end_clean();
     return $var;
+}
+
+/*
+ * wp delete-post command
+ *
+ * */
+add_action('init', 'wp_delete_post_command');
+
+function wp_delete_post_command()
+{
+    if (!class_exists('WP_CLI')) {
+        return;
+    }
+
+    WP_CLI::add_command('delete-posts', 'delete_all_posts');
+}
+
+function delete_all_posts($args = array('post_type' => 'sessions', 'numberposts' => -1))
+{
+    $all_posts = get_posts($args);
+
+    foreach ($all_posts as $post) {
+        wp_delete_post($post->ID, true);
+        echo "post $post->ID is deleted ... \n";
+    }
 }
