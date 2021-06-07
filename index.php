@@ -2,20 +2,18 @@
 
 <div class="container">
   <?php
-  if (have_posts()) :
-    while (have_posts()) :
-      the_post();
-  ?>
+    if (have_posts()) :
+        while (have_posts()) :
+            the_post();
+            ?>
       <div>
-        <?php the_content('[Read more]', false); ?>
+            <?php the_content('[Read more]', false); ?>
       </div>
-  <?php
-    endwhile;
-  endif;
-  ?>
+            <?php
+        endwhile;
+    endif;
+    ?>
 </div>
-
-<?php get_sidebar(); ?>
 
 
 <?php get_footer(); ?>
