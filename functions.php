@@ -512,3 +512,73 @@ function delete_all_posts($args = array('post_type' => array('sessions', 'worksh
     }
   }
 }
+
+
+/* ==================================== */
+/* customize comments form */
+/* ==================================== */
+
+add_filter('comment_form_defaults', 'isa_comment_reform');
+function isa_comment_reform($args)
+{
+  $agrs['title_reply'] = __('Leave a comment.');
+  return $args;
+}
+
+
+/* Add last Name field */
+add_filter('comment_form_defaults', 'change_comment_form_defaults');
+function change_comment_form_defaults($default)
+{
+  $default['fields']['author'] .= '<p class="comment-form-lastname">' . '<label for="lastname">' . __('Last Name') . '<span class="required">*</span></label><input id="lastname" name="lastname" size="30" type="text"/></p>';
+  return $default;
+}
+
+
+/* Save lastname meta */
+add_action('comment_post', 'save_comment_meta_data');
+function save_comment_meta_data($comment_id)
+{
+  add_comment_meta($comment_id, 'lastname', isset($_POST['lastname']) ? $_POST['lastname'] : '');
+}
+
+
+/* /1* error validation *1/ */
+/* add_filter('preprocess_comment', 'verify_comment_meta_data'); */
+/* function verify_comment_meta_data($commentdata) */
+/* { */
+/*   if (!isset($_POST['lastname'])) */
+/*     wp_die(__('Error: please fill the required field(Last Name). <p><a href="javascript:history.back()"><< back</a></p>')); */
+/*   return $commentdata; */
+/* } */
+
+
+/* remove website filed */
+add_filter('comment_form_default_fields', 'website_remove');
+function website_remove($fields)
+{
+  if (isset($fields['url'])) {
+    unset($fields['url']);
+  }
+  return $fields;
+}
+
+
+/* change field name to first name */
+add_filter('comment_form_default_fields', 'alter_comment_form_fields');
+function alter_comment_form_fields($fields)
+{
+  $commenter = wp_get_current_commenter();
+  $fields['author'] = '<p class="comment-form-author">' . '<label for="author">' . __('First Name') . '<span class="required">*</span></label><input id="author" name="author" type="text" value="' . esc_attr($commenter['comment_author']) . '" size="30" /></p>';
+
+  return $fields;
+}
+
+
+/* change submit button */
+add_filter('comment_form_submit_button', 'filter_comment_form_submit_button', 10, 2);
+function filter_comment_form_submit_button($submit_button, $args)
+{
+  $submit_button = '<button id="submit" class="submit comment-button"><span class="submit-text">Submit</span></button>';
+  return $submit_button;
+}
