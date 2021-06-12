@@ -1,19 +1,5 @@
 <?php
 
-/**
- * The template file for displaying the comments and comment form for the
- * Twenty Twenty theme.
- *
- * @package WordPress
- * @subpackage Twenty_Twenty
- * @since Twenty Twenty 1.0
- */
-
-/*
- * If the current post is protected by a password and
- * the visitor has not yet entered the password we will
- * return early without loading the comments.
-*/
 if (post_password_required()) {
   return;
 }
@@ -32,7 +18,7 @@ if ($comments) {
       <h2 class="comment-reply-title">
         <?php
         if (!have_comments()) {
-          _e('Leave a comment', 'xy-theme');
+          _e('Leave your valued comment', 'xy-theme');
         } elseif (1 === $comments_number) {
           /* translators: %s: Post title. */
           printf(_x('One reply on &ldquo;%s&rdquo;', 'comments title', 'xy-theme'), get_the_title());

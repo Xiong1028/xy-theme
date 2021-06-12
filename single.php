@@ -67,7 +67,7 @@
           $replies = get_comments(array(
             'post_id' => $post_id,
             'parent'  => $comment->comment_ID,
-            'status'  => 'approve'
+            'number'  => 200
           ));
 
           foreach ($replies as $reply) :
@@ -96,8 +96,9 @@
         <div class="reply_form">
           <?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . "://$_SERVER[HTTP_HOST]/wp-comments-reply-post.php";  ?>
           <div id="<?php echo 'comment_' . $comment->comment_ID ?>" style="display:none">
-            <form method="post" action="<?php echo $actual_link;  ?>" id="comment_reply">
-              <input type="hidden" name="rediect_to" value="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";  ?>" />
+            <form method="post" action="<?php echo $actual_link;  ?>" class="custom-reply-form">
+              <input type="hidden" name="action" value="save_contact" />
+              <input type="hidden" name="redirect_to" value="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";  ?>" />
               <input type="hidden" name="comment_parent" value="<?php echo $comment->comment_ID; ?>">
               <input type="hidden" name="comment_post_ID" value="<?php echo $post_id; ?>">
               <textarea name="reply" id="reply" cols="600" rows="4" placeholder="Enter your reply."></textarea>
@@ -122,16 +123,5 @@
   endif;
   ?>
 </div>
-<script>
-  function hide_show($id) {
-    console.log($id);
-    $reply_form = document.getElementById("comment_" + $id);
-    console.log($reply_form);
-    $display_attrbute = $reply_form.style.display;
-    if ($display_attrbute === 'none') {
-      $reply_form.style.display = 'block';
-    } else {
-      $reply_form.style.display = 'none';
-    }
-  }
-</script>
+
+<?php get_footer(); ?>
